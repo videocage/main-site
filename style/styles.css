@@ -11,10 +11,12 @@ body {
 }
 
 
+
+
 a {
 	text-decoration: none;
 	position: relative;
-	color: ghostwhite;
+	color: whitesmoke;
 
 
 }
@@ -286,6 +288,28 @@ footer {
 	font-weight: bold;
 	text-align: center;
 }
+
+
+}
+.bitcoin-img {
+    border: 3px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+}
+
+.contactme-anchor {
+    color: steelblue;
+    font-style: italic;
+    font-weight: bold;
+    border: solid 2px black;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+}
+.contactme-anchor:hover {
+	color: black;
+	transform: scale(1.2) rotate(55deg);
 
 
 
