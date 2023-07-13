@@ -307,6 +307,7 @@ footer {
     padding: 5px;
     display: inline-block;
 }
+
 .contactme-anchor:hover {
 	color: black;
 	transform: scale(1.2) rotate(55deg);
