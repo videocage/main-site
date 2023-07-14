@@ -329,7 +329,20 @@ footer {
 	display:inline-block;
 	border: 5px white solid;
 	border-radius: 5px;
+	margin: 30px;
+	padding: 20px 40px 40px;
+	max-width: 500px;
+	text-align: left;
+	background: #fff;
+	border-bottom: 4px solid #ccc;
+	border-radius: 6px;
+	text-align: center;
+	border: 5px white solid;
+	background-origin: 5px;
 
+}
+.secondmain:hover {
+	border-color: #ff99ff;
 }
 
 /*
