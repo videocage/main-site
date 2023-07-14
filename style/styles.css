@@ -338,9 +338,9 @@ footer {
 	background-origin: 5px;
 
 }
-.secondmain li{
-	text-decoration: none;
-}
+.secondmain ul{
+	list-style-type: none;
+
 .secondmain:hover {
 	border-color: #ff99ff;
 }
