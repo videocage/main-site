@@ -332,14 +332,14 @@ footer {
 	margin: 30px;
 	padding: 20px 40px 40px;
 	max-width: 500px;
-	text-align: left;
 	background: #fff;
 	border-bottom: 4px solid #ccc;
-	border-radius: 6px;
 	text-align: center;
-	border: 5px white solid;
 	background-origin: 5px;
 
+}
+.secondmain li{
+	text-decoration: none;
 }
 .secondmain:hover {
 	border-color: #ff99ff;
