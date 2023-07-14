@@ -11,8 +11,6 @@ body {
 }
 
 
-
-
 a {
 	text-decoration: none;
 	position: relative;
@@ -27,7 +25,7 @@ a:hover {
 
 .main-nav {
 	width: 100%;
-	background: lightgoldenrodyellow;
+	background: maroon;
 	min-height: 30px;
 	padding: 10px;
 	position: fixed;
@@ -50,15 +48,17 @@ a:hover {
 .nav li {
 	padding: 5px 10px 10px 10px;
 	border-radius: 6px;
-	display: flex;
-	background: steelblue;
+	display: block;
+	background: mediumpurple;
 	color: whitesmoke;
 	padding: 5px 10px;
 	margin: 2px;
+    position: relative;
+    float: left;
 }
 
 .nav li {
-	transition: all .5s;
+	transition: all .3s;
 	
 }
 
@@ -118,6 +118,8 @@ header .profile-image:hover {
 	border-bottom: 4px solid #ccc;
 	border-radius: 6px;
 	text-align: center;
+	border: 5px white solid;
+	background-origin: 5px;
 }
 .card:hover{
 	border-color: #ff99ff;
@@ -289,15 +291,6 @@ footer {
 	text-align: center;
 }
 
-
-}
-.bitcoin-img {
-    border: 3px black solid;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: red;
-}
-
 .contactme-anchor {
     color: steelblue;
     font-style: italic;
@@ -306,11 +299,48 @@ footer {
     border-radius: 50%;
     padding: 5px;
     display: inline-block;
+    background-color: pink;
 }
-
 .contactme-anchor:hover {
 	color: black;
 	transform: scale(1.2) rotate(55deg);
+}
+.bitcoin-img {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: red;
+}
+
+.payment li {
+	border-radius: 6px;
+	display: inline-block;
+	background: mediumpurple;
+	color: whitesmoke;
+	padding: 5px 10px;
+	margin: 2px;
+}
+
+.payment li:nth-child(odd) {
+	background: navy;
+}
+
+.secondmain {
+	display:inline-block;
+	border: 5px white solid;
+	border-radius: 5px;
+
+}
+
+.nav li:hover ul ul {display:none;}
+
+.nav ul {
+position:absolute;
+padding:0;
+left:0;
+display:none;
+}
+.nav li:hover ul {display:block;} 
 
 
 
