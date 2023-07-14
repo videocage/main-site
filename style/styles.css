@@ -213,7 +213,7 @@ a.github {
 	background-image: url('css-img/github.svg');
 }
 
-a.social.hover {
+a.social:hover {
 
 	opacity: 1;
 }
@@ -340,8 +340,10 @@ footer {
 }
 .payment ul{
 	list-style-type: none;
+}
 
 .secondmain:hover {
+
 	border-color: #ff99ff;
 }
 
