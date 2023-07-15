@@ -222,6 +222,43 @@ a.social:hover {
 	clear: both;
 }
 
+.secondmain {
+	display:inline-block;
+	border: 5px white solid;
+	border-radius: 5px;
+	margin: 30px;
+	padding: 20px 40px 40px;
+	max-width: 500px;
+	background: #fff;
+	border-bottom: 4px solid #ccc;
+	text-align: center;
+
+}
+.payment ul{
+	list-style: none;
+}
+
+.payment li {
+	border-radius: 6px;
+	display: inline-block;
+	background: mediumpurple;
+	color: whitesmoke;
+	padding: 5px 10px;
+	margin: 2px;
+}
+
+
+.payment li:nth-child(odd) {
+	background: navy;
+}
+
+
+.secondmain:hover {
+
+	border-color: #ff99ff;
+}
+
+
 
 @media screen and (min-width: 720px) {
 
@@ -304,41 +341,6 @@ footer {
 .contactme-anchor:hover {
 	color: black;
 	transform: scale(1.2) rotate(55deg);
-}
-.secondmain {
-	display:inline-block;
-	border: 5px white solid;
-	border-radius: 5px;
-	margin: 30px;
-	padding: 20px 40px 40px;
-	max-width: 500px;
-	background: #fff;
-	border-bottom: 4px solid #ccc;
-	text-align: center;
-
-}
-.payment ul{
-	list-style: none;
-}
-
-.payment li {
-	border-radius: 6px;
-	display: inline-block;
-	background: mediumpurple;
-	color: whitesmoke;
-	padding: 5px 10px;
-	margin: 2px;
-}
-
-
-.payment li:nth-child(odd) {
-	background: navy;
-}
-
-
-.secondmain:hover {
-
-	border-color: #ff99ff;
 }
 
 
