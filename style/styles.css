@@ -305,28 +305,6 @@ footer {
 	color: black;
 	transform: scale(1.2) rotate(55deg);
 }
-.bitcoin-img {
-    border: 2px black solid;
-    border-radius: 5px;
-    padding: 3px;
-    background-color: red;
-}
-
-
-.payment li {
-	border-radius: 6px;
-	display: inline-block;
-	background: mediumpurple;
-	color: whitesmoke;
-	padding: 5px 10px;
-	margin: 2px;
-}
-
-
-.payment li:nth-child(odd) {
-	background: navy;
-}
-
 .secondmain {
 	display:inline-block;
 	border: 5px white solid;
@@ -343,10 +321,37 @@ footer {
 	list-style: none;
 }
 
+.payment li {
+	border-radius: 6px;
+	display: inline-block;
+	background: mediumpurple;
+	color: whitesmoke;
+	padding: 5px 10px;
+	margin: 2px;
+}
+
+
+.payment li:nth-child(odd) {
+	background: navy;
+}
+
+
 .secondmain:hover {
 
 	border-color: #ff99ff;
 }
+
+
+.bitcoin-img {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: red;
+}
+
+
+
+
 
 
 
