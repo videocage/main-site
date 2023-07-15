@@ -269,6 +269,12 @@ a.social:hover {
 		margin: 0 auto;
 	}
 
+.secondmain {
+	    display: flex;
+		max-width: 1200px;
+		justify-content: space-around;
+		margin: 0 auto;
+}
 header {
 	min-height: 450px;
 }
