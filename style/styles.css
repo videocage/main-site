@@ -119,7 +119,7 @@ header .profile-image:hover {
 	border-radius: 6px;
 	text-align: center;
 	border: 5px white solid;
-	background-origin: 5px;
+	background-origin: border-box;
 }
 .card:hover{
 	border-color: #ff99ff;
@@ -254,7 +254,7 @@ main p {
 
 footer {
 	font-size: 1.3em;
-	max-width: 1200pm;
+	max-width: 1200px;
 	margin: 40px auto;
 }
 
@@ -347,6 +347,8 @@ footer {
     border-radius: 5px;
     padding: 3px;
     background-color: red;
+}
+
 }
 
 
